@@ -1,3 +1,8 @@
+"""
+    An implementation of circular queue. In reality, deque (built-in double - ended queue) is a 
+    better choice in most cases.
+"""
+
 class CircularQueue:
 
     def __init__(self, k: int):
