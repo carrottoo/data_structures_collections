@@ -1,5 +1,10 @@
 from typing import Union 
 
+"""
+    An implementation of min stack which can provide a fast query at O(1) of the min value in the stack. 
+    In reality, you can also use just list (for python), and another varible to track min value.
+"""
+
 class MinStack:
 
     def __init__(self):
