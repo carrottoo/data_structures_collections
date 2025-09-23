@@ -3,6 +3,9 @@
     1. Find the component to which an element belongs to.
        find(x) == find(y) <==> x and y in the same component
     2. Merge two components by allowing an edge to enable travelling between them.
+
+    In reality, you can have many other ways to implement similar ideas depending on the problems. 
+    This a general version for reference. 
 """
 class UnionFind:
     def __init__(self, size: int):
